@@ -1,3 +1,5 @@
+//Method is a block of code or bunch of statements that can be reusable again.
+
 public class MethodSample {
     int adding(int x,int y){                           //Method
         return x+y;
