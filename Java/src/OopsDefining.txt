@@ -1,0 +1,12 @@
+Oops is used to solve a problem by creating objects.
+Object is an instantiation of a class, when a class is defined a template is created.and memory is allocated only after the object instantiation.
+
+Noun---------> Class--------> Employee
+Adjective----> Attributes---> name,age,salary.
+Verb---------> Methods------> getSalary(),increment()
+
+Basic Terminology in OOPS
+Abstraction: is a process of hiding all the implementation details and showing only the functionality of the code.(For example we know the functionality of our mobile but the implementation details are hidden.
+Encapsulation: is a process of hiding sensitive information . the data and variables are brought under a single unit. In other way the data is protected by a capsule layer.The data cannot be accessed by the other classes.By making the methods private.
+Inheritance:is a process of deriving sub class from super class,a child class can inherit the properties of the parent class.
+Polymorphism:is a process of performing single action in many ways.
