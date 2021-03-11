@@ -23,7 +23,6 @@ class inh{
 class inh2 extends inh{
     public int  pr(){
         return getX();
-
     }
 }
 
