@@ -1,5 +1,5 @@
 //For classes use threads and Runnable for interface.
-
+//Thread Priority.
 /*public class MultiThreadingCode {
     public static void main(String[] args) {
         hi obj1=new hi();
@@ -47,6 +47,10 @@ public class MultiThreadingCode {
         t1.start();     //Starting the Thread with start keyword where run should be the functionality(method).
         try {Thread.sleep(50);} catch (Exception e){}   //This is to get non collisional outputs
         t2.start();
+        t1.setPriority(Thread.MIN_PRIORITY);       //Setting priority of thread
+        t2.setPriority(Thread.MAX_PRIORITY);
+        System.out.println(t1.getPriority());      //Getting priority of thread.
+        System.out.println(t2.getPriority());
 
     }
 }
