@@ -1,0 +1,3 @@
+Java is both interpreted and compiled language.
+It first compiles by Javac then converts to bytecode and then interpreted.
+Here bytecode can be used in any platform which makes java platform independent.
