@@ -1,0 +1,4 @@
+A thread is a smallest unit of a process.
+Multi threading is used to improve speed as it creates many threads.
+It can perform many threads at a time, and the threads run independently and light weighted.
+Every code has minimum one thread that is main.

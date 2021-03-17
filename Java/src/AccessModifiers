@@ -1,0 +1,17 @@
+Access Modifiers specifies the accessibility of the class,method,constructor. When we change the access level then the accessibility of methods,classes also changes.
+Public    - Can access within and outside of class and package.
+Private   - Can access within class.
+Default   - Can access within class and package.
+Protected - Can access within package and to use outside package the class should be inherited.
+             Ex:
+                package A
+                class A1{
+                int n=10;
+                }
+
+                Package B
+                import A;
+                class B1 extends A1{
+                sout(n);
+                }.
+
