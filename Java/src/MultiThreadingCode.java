@@ -41,8 +41,8 @@ public class MultiThreadingCode {
         hi obj1=new hi();
         Hello obj2=new Hello();
 
-        Thread t1=new Thread();   //Threads should be created to execute Runnable Interfaces.
-        Thread t2=new Thread();
+        Thread t1=new Thread(obj1);   //Threads should be created to execute Runnable Interfaces.
+        Thread t2=new Thread(obj2);
 
         t1.start();     //Starting the Thread with start keyword where run should be the functionality(method).
         try {Thread.sleep(50);} catch (Exception e){}   //This is to get non collisional outputs
