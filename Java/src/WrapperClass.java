@@ -5,18 +5,16 @@ import java.util.ArrayList;
 
 public class WrapperClass {
     public static void main(String[] args) {
-        int i=5;                    //This is Primitive data type.
-        Integer ii=new Integer(i);  //Boxing
-        Integer jj=i;               //AutoBoxing
+        int a=20;
+        Integer i=a; // Integer i=Integer.valueOf(a); ----->Auto-Boxing
+        Integer i1=Integer.valueOf(a); // Manual Boxing;
+        System.out.println(i1);
 
-        int j=jj.intValue();       //UnBoxing
-        int k=jj;                  //AutoUnboxing
+        int b=i; // int b= i.intValue(); --> Auto-Unboxing;
+        int b1=i.intValue(); // Manual Unboxing
 
-        ArrayList<Integer> l=new ArrayList<>();
-        l.add(5);
-        l.add(7);
-        l.add(Integer.valueOf(k));
-        System.out.println(l);
+        System.out.println(b);
+        System.out.println(b1);
 
     }
 }
