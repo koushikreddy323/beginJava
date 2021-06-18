@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 
 public class GcdUsingReccursion {
     public static void main(String[] args) {

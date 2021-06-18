@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 
 public class LinkedListChar {
     Node2 head;

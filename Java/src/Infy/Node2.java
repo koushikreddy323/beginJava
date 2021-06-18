@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 
 public class Node2 {
     String data;

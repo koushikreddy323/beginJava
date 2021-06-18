@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 
 public class Tester {
     public static void main(String[] args) {

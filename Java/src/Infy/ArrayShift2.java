@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 
 import java.util.Scanner;
 

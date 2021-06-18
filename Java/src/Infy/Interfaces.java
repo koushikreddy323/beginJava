@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 /*
 Interface in java: It is a blueprint of a class which contains the
 abstract methods, static methods,default methods & public static final variable.

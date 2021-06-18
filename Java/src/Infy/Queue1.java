@@ -1,4 +1,4 @@
-package swiftFood;
+package Infy;
 //Queue has front and rear. Enqueue happens at the front and Dequeue happens at the rear.
 
 public class Queue1{
