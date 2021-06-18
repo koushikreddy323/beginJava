@@ -1,5 +1,5 @@
-package swiftFood;
-
+package Infy;
+//Stack had only one end push and pop operations are performed to add and delete the data.
  class Stack1 {
     int top;
     int maxSize;
