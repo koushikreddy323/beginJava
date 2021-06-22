@@ -1,6 +1,6 @@
 package Infy;
 
-public class LinkedList {
+public class LinkedList1 {
 //    Node1 head;
 //
 //    void insert(int data){
