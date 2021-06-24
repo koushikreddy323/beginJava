@@ -17,11 +17,12 @@ public class MergeSort {
         int[] right = new int[size - mid]; //Creating temporary array to the right of the mid value
 
         //Copying data to temporary arrays
-        for (int index = 0; index < mid; index++)
-            left[index] = arr[index];
+        System.arraycopy(arr, 0, left, 0, mid);
 
-        for (int index = mid; index < size; index++)
-            right[index - mid] = arr[index];
+        if (size - mid >= 0) System.arraycopy(arr, mid, right, 0, size - mid);
+
+       // for (int index = mid; index < size; index++)
+         //   right[index - mid] = arr[index];
 
         //Invoking mergeSort() by passing left array
         mergeSort(left, mid);
